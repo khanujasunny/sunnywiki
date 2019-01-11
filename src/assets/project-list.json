@@ -30,5 +30,21 @@
     "categories": ["Finance", "Accounts"],
     "icon": "mobile",
     "status": "Planned"
+  },
+  {
+    "title" : "Logical Brains",
+    "description": "MOBILE APP , GAME & WEB DEVELOPMENT COMPANY: LOGICAL BRAINS is the 21st Century Group of Collaborative and Multidisciplinary minds to develop cutting edge technological end products to word-wide clients.",
+    "background": "https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg",
+    "categories": ["Finance", "Accounts"],
+    "icon": "mobile",
+    "status": "Planned"
+  },
+  {
+    "title" : "FIP: Funeral Insurance & Planner",
+    "description": "Plan your funeral ahed of time, we insure your funeral goes smooth, your loved once are treated well & your will is dealth with the way you want it to be.",
+    "background": "https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg",
+    "categories": ["Funeral", "Accounts"],
+    "icon": "mobile",
+    "status": "Planned"
   }
 ]
