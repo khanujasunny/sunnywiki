@@ -1,0 +1,36 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
+  <mdb-navbar-brand>
+    <a class="logo navbar-brand waves-light" mdbWavesEffect href="#"><strong>Sunny Wiki</strong></a>
+  </mdb-navbar-brand>
+  <links>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item waves-light"
+          [routerLinkActive]="['active']"
+          *ngFor="let nav of navLinks" mdbWavesEffect>
+        <a class="nav-link" [routerLink]="nav.path" mdbWavesEffect>
+          {{nav.text}}<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item waves-light dropdown" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle " mdbWavesEffect>
+          Our Websites<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">LifeNShades</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">AClothStore</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Trackey.me</a>
+          <div class="divider dropdown-divider"></div>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Logical Brains</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Android Guru</a>
+        </div>
+      </li>
+
+    </ul>
+    <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </form>
+  </links>
+</mdb-navbar>
+<!-- Navbar -->
+

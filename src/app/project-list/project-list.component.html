@@ -1,0 +1,45 @@
+<header>
+  <app-header></app-header>
+  <br/><br/><br/><br/><br/>
+  <!--Projects section v.4-->
+  <section class="container text-center pb-3">
+
+    <!--Section heading-->
+    <h2 class="font-weight-bold h1 py-5">
+      <strong>Tools we are working on</strong>
+    </h2>
+    <!--Section description-->
+    <p class="grey-text pb-5 text-center">Here at SunnyWiki, we are working on some new tools and concept, below you can find more details about those</p>
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class=" mb-4" *ngFor="let project of projects; let index = index;"
+           [ngClass]="(index == 0 || index == projects.length-1) ? 'col-md-12' : 'col-md-6'">
+        <div class="card card-image"
+             [ngStyle]="{'background-image': 'url('+project.background+')'}">
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4 rounded">
+            <div>
+              <h6 class="text-centre">
+                <span class="margin-sm badge badge-pill badge-{{colors[index]}}" *ngFor="let category of project.categories">{{category}}</span>
+              </h6>
+
+              <h3 class="py-3 font-weight-bold">
+                <strong [innerHtml]="project.title"></strong>
+              </h3>
+              <p class="pb-3" [innerHtml]="project.description"></p>
+              <a mdbBtn color="secondary" size="md" rounded="true" class="waves-light" mdbWavesEffect>
+                <i class="fa fa-{{project.icon}} left"></i> View project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Grid column-->
+
+   </div>
+    <!--Grid row-->
+
+  </section>
+  <!--Projects section v.4-->
+</header>

@@ -1,0 +1,34 @@
+[
+  {
+    "title" : "Tax Calculator",
+    "description": "This app will calculate tax user need to pay according to his income based on certain criteria (described in layman term) and app will contain logic & algorithm for taxation system for India, UK, US and few more countries",
+    "background": "https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg",
+    "categories": ["Finance", "Accounts"],
+    "icon": "calculator",
+    "status": "Planned"
+  },
+  {
+    "title" : "AIO Social(All in One Social App)",
+    "description": "This app will combine all the major social media like Twitter, Facebook, Instagram, etc. and will act as an ultimate platform that one needs to be on.<br/> View all your feeds at once, post to all social accounts from single app.",
+    "background": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg",
+    "categories": ["Social"],
+    "icon": "rss",
+    "status": "Planned"
+  },
+  {
+    "title" : "Alien Files(Conceptual Idea)",
+    "description": "Everyone loves to know about alien life forms and the news related to them. One of the best app ideas in science fiction can be Alien Files, as it will act as an ultimate destination to gain the knowledge about extra-terrestrial beings and will give up[ to date information to its users.",
+    "background": "https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg",
+    "categories": ["Alien", "Sci-Fi"],
+    "icon": "reddit-alien",
+    "status": "Planned"
+  },
+  {
+    "title" : "TracKey",
+    "description": "Access Mobile Device remotely, access camera, microphone, record all calls(cloud storage).<br/>Share screen web view,    File transfer, Camera stream, Access microphone, Access contacts, Access Call Records/Message, Access user timeline(using google account), Locate device anytime, Reply to message",
+    "background": "https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg",
+    "categories": ["Finance", "Accounts"],
+    "icon": "mobile",
+    "status": "Planned"
+  }
+]
